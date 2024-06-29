@@ -15,6 +15,7 @@
 		44BCBA302C2EFC4800C8740E /* FriendModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44BCBA2F2C2EFC4800C8740E /* FriendModel.swift */; };
 		44BCBA322C2EFCE900C8740E /* NetService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44BCBA312C2EFCE900C8740E /* NetService.swift */; };
 		44BCBA342C2F02E600C8740E /* PersonElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44BCBA332C2F02E600C8740E /* PersonElement.swift */; };
+		44BCBA362C30031000C8740E /* ContentView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44BCBA352C30031000C8740E /* ContentView2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		44BCBA2F2C2EFC4800C8740E /* FriendModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendModel.swift; sourceTree = "<group>"; };
 		44BCBA312C2EFCE900C8740E /* NetService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetService.swift; sourceTree = "<group>"; };
 		44BCBA332C2F02E600C8740E /* PersonElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonElement.swift; sourceTree = "<group>"; };
+		44BCBA352C30031000C8740E /* ContentView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 			children = (
 				44BCBA1F2C2EE93100C8740E /* FriendFaceApp.swift */,
 				44BCBA212C2EE93100C8740E /* ContentView.swift */,
+				44BCBA352C30031000C8740E /* ContentView2.swift */,
 				44BCBA232C2EE93300C8740E /* Assets.xcassets */,
 				44BCBA252C2EE93300C8740E /* Preview Content */,
 				44BCBA2D2C2EFB8300C8740E /* PersonModel.swift */,
@@ -153,6 +156,7 @@
 				44BCBA302C2EFC4800C8740E /* FriendModel.swift in Sources */,
 				44BCBA322C2EFCE900C8740E /* NetService.swift in Sources */,
 				44BCBA2E2C2EFB8300C8740E /* PersonModel.swift in Sources */,
+				44BCBA362C30031000C8740E /* ContentView2.swift in Sources */,
 				44BCBA202C2EE93100C8740E /* FriendFaceApp.swift in Sources */,
 				44BCBA342C2F02E600C8740E /* PersonElement.swift in Sources */,
 			);

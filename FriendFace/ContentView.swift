@@ -39,10 +39,7 @@ struct ContentView: View {
                     }
                     .task {
                         if persons.isEmpty {
-                            var personsArray = await NetService.shared.loadData()
-                            for pers in personsArray {
-                                modelContext.insert(pers)
-                            }
+                            await writePerson()
                         }
                     }
                 }
@@ -51,6 +48,17 @@ struct ContentView: View {
             .navigationBarTitleDisplayMode(.inline)
         }
        
+    }
+    func writePerson() async {
+        var persons: [PersonModel] = []
+        persons = await readPersons()
+        for pers in persons {
+            modelContext.insert(pers)
+        }
+    }
+    
+    func readPersons() async -> [PersonModel] {
+        await NetService.shared.loadData()
     }
 }
 
